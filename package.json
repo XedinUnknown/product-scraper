@@ -25,10 +25,6 @@
     "ecommerce",
     "product"
   ],
-  "engines": {
-    "node": "^16.17 || ^17 || ^18",
-    "npm": "^8.15"
-  },
   "author": "Xedin Unknown <xedin.unknown@gmail.com>",
   "license": "MIT",
   "bugs": {
