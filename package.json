@@ -1,0 +1,44 @@
+{
+  "name": "product-scraper",
+  "version": "0.1.0",
+  "description": "A scraper for product pages",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "demo": "node dist/demo.js",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XedinUnknown/product-scraper.git"
+  },
+  "keywords": [
+    "scrape",
+    "ecommerce",
+    "product"
+  ],
+  "engines": {
+    "node": "^16.17",
+    "npm": "^8.15"
+  },
+  "author": "Xedin Unknown <xedin.unknown@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XedinUnknown/product-scraper/issues"
+  },
+  "homepage": "https://github.com/XedinUnknown/product-scraper#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "gts": "^4.0",
+    "typescript": "^4.8"
+  }
+}
