@@ -18,10 +18,10 @@ jobs:
           - 17.x
           - 18.x
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v2
 
       - name: Node.js
-        uses: actions/setup-node
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
