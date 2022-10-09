@@ -5,15 +5,19 @@
   "main": "dist/src/index.js",
   "scripts": {
     "test": "test",
-    "build": "tsc",
+    "build": "yarn compile",
+    "ts": "tsc",
+    "ts:defs": "tsc --declaration --out declarations.js --emitDeclarationOnly",
     "demo": "node dist/demo.js",
     "lint": "gts lint",
-    "clean": "gts clean",
-    "compile": "tsc",
+    "clean": "gts clean && rm declarations.d.ts",
+    "compile": "yarn ts",
     "fix": "gts fix",
-    "prepare": "yarn run compile",
-    "pretest": "yarn run compile",
-    "posttest": "yarn run lint"
+    "prepare": "yarn build",
+    "pretest": "yarn build",
+    "posttest": "yarn lint",
+    "prepublishOnly": "yarn build && yarn ts:defs",
+    "postpublish": "yarn clean"
   },
   "repository": {
     "type": "git",
