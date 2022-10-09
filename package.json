@@ -13,9 +13,6 @@
     "clean": "gts clean && rm declarations.d.ts",
     "compile": "yarn ts",
     "fix": "gts fix",
-    "prepare": "yarn build",
-    "pretest": "yarn build",
-    "posttest": "yarn lint",
     "prepublishOnly": "yarn build && yarn ts:defs",
     "postpublish": "yarn clean"
   },
