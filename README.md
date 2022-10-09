@@ -4,5 +4,5 @@ A scraper for online products.
 
 
 ## Requirements
-- Node 16, 17, 18.
+- Node 16, 18.
 - npm 8 (not sure if earlier works)
