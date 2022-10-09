@@ -1,5 +1,6 @@
 # Product Scraper
 [![Checks](https://github.com/XedinUnknown/product-scraper/actions/workflows/checks.yml/badge.svg)](https://github.com/XedinUnknown/product-scraper/actions/workflows/checks.yml)
+
 A scraper for online products.
 
 
