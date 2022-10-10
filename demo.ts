@@ -6,9 +6,9 @@ import express from 'express';
 
 type RequestData = {
   u: string;
-}
+};
 
-let app = express();
+const app = express();
 
 app.get('/demo', async (req, res) => {
   const url = req.query['u' as keyof RequestData] as string;
@@ -22,4 +22,4 @@ app.get('/demo', async (req, res) => {
 
 app.listen(3000, () => {
   console.log('Listening...');
-})
+});
