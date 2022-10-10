@@ -1,7 +1,9 @@
 import ProductPage from './src/product/ProductPage';
 import * as cheerio from 'cheerio';
+/* eslint-disable-next-line node/no-unpublished-import */
 import axios from 'axios';
 import scrape from './src/product/scrapers/scanmalta.com';
+/* eslint-disable-next-line node/no-unpublished-import */
 import express from 'express';
 
 type RequestData = {
