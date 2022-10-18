@@ -1,7 +1,7 @@
 import Product from './Product';
-import ProductPage from './ProductPage';
+import Page from 'common/Page';
 import Optional from 'common/Optional';
 
 export default interface ProductScraper {
-  (page: ProductPage, defaults?: Optional<Product>): Product;
+  (productPage: Page, defaults?: Optional<Product>): Product;
 }

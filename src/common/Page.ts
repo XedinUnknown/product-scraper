@@ -2,7 +2,7 @@ import * as cheerio from 'cheerio';
 
 type Element = cheerio.Cheerio;
 
-export default class ProductPage {
+export default class Page {
   constructor(private document: Element) {}
 
   select(selector: string): Element {

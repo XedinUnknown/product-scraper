@@ -1,4 +1,4 @@
-import ProductPage from 'product/ProductPage';
+import ProductPage from 'common/Page';
 import * as cheerio from 'cheerio';
 /* eslint-disable-next-line node/no-unpublished-import */
 import axios from 'axios';
