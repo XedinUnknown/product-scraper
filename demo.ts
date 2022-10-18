@@ -1,8 +1,8 @@
-import ProductPage from './src/product/ProductPage';
+import ProductPage from 'product/ProductPage';
 import * as cheerio from 'cheerio';
 /* eslint-disable-next-line node/no-unpublished-import */
 import axios from 'axios';
-import scrape from './src/product/scrapers/scanmalta.com';
+import scrape from 'product/scrapers/scanmalta.com';
 /* eslint-disable-next-line node/no-unpublished-import */
 import express from 'express';
 
