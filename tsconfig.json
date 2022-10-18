@@ -11,12 +11,14 @@
         "baseUrl": ".",
         "paths": {
             "*": [
-                "node_modules/*"
+                "src/*",
+                "node_modules/*",
             ]
         },
         "declaration": true,
     },
     "include": [
         "src/**/*",
+        "demo.ts",
     ]
 }

@@ -1,6 +1,6 @@
-import ProductPage from '../src/product/ProductPage';
+import ProductPage from 'product/ProductPage';
 import * as cheerio from 'cheerio';
-import scrape from '../src/product/scrapers/scanmalta.com';
+import scrape from 'scrapers/scanmalta.com';
 import * as fs from 'fs';
 
 test('Get data for a product from scanmalta.com', async () => {

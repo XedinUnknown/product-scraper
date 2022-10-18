@@ -2,4 +2,5 @@ ports:
   - port: 3000
     protocol: "http"
 tasks:
-  - command: "npm install && npm run start:dev"
+  - init: yarn build
+  - command: yarn demo
