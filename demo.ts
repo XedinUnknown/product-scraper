@@ -2,7 +2,7 @@ import ProductPage from 'product/ProductPage';
 import * as cheerio from 'cheerio';
 /* eslint-disable-next-line node/no-unpublished-import */
 import axios from 'axios';
-import scrape from 'product/scrapers/scanmalta.com';
+import scrape from 'scrapers/scanmalta.com';
 /* eslint-disable-next-line node/no-unpublished-import */
 import express from 'express';
 
